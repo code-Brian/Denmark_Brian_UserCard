@@ -14,6 +14,11 @@
 }
 
 body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: cursive;
     font-weight: bolder;
     color: black;
@@ -27,30 +32,32 @@ img {
 .container {
     position: relative;
     background-color: white;
+    border: solid 3px #cbcbcb;
     height:400px;
     width: 800px;
     /* outline: 5px solid red;
     outline-offset: -5px; */
     display: flex;
     flex-flow: column nowrap;
-    padding: 25px;
+    /* padding: 25px; */
 }
 
 .top-banner {
     background-color: #17a2b8;
     height: 100px;
+    width: 805;
     /* outline: 5px solid blue;
     outline-offset: -5px; */
 }
 
 .user-photo {
     position: absolute;
-    left: 60px;
-    top: 80px;
+    left: 40px;
+    top: 40px;
     height: 100px;
     width: 100px;
     background-color: white;
-    border: solid 3px #cbcbcb ;
+    border: solid 3px #cbcbcb;
     border-radius: 150px;
     padding: 2px;
 }
@@ -60,7 +67,7 @@ img {
     flex-flow: column nowrap;
     /* outline: 5px solid green;
     outline-offset: -5px; */
-    padding-top: 70px;
+    padding-top: 45px;
     padding-bottom: 10px;
     padding-left: 25px;
 }
